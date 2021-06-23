@@ -2650,13 +2650,6 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-doctrine@0.7.2:
-  version "0.7.2"
-  resolved "https://registry.nlark.com/doctrine/download/doctrine-0.7.2.tgz#7cb860359ba3be90e040b26b729ce4bfa654c523"
-  dependencies:
-    esutils "^1.1.6"
-    isarray "0.0.1"
-
 doctrine@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/doctrine/download/doctrine-3.0.0.tgz#addebead72a6574db783639dc87a121773973961"
@@ -2988,10 +2981,6 @@ estraverse@^4.1.0, estraverse@^4.1.1:
 estraverse@^5.1.0:
   version "5.1.0"
   resolved "https://registry.npm.taobao.org/estraverse/download/estraverse-5.1.0.tgz?cache=0&sync_timestamp=1586968505635&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Festraverse%2Fdownload%2Festraverse-5.1.0.tgz#374309d39fd935ae500e7b92e8a6b4c720e59642"
-
-esutils@^1.1.6:
-  version "1.1.6"
-  resolved "https://registry.nlark.com/esutils/download/esutils-1.1.6.tgz#c01ccaa9ae4b897c6d0c3e210ae52f3c7a844375"
 
 esutils@^2.0.2:
   version "2.0.3"
@@ -4214,10 +4203,6 @@ is-wsl@^2.1.1:
   resolved "https://registry.npm.taobao.org/is-wsl/download/is-wsl-2.2.0.tgz#74a4c76e77ca9fd3f932f290c17ea326cd157271"
   dependencies:
     is-docker "^2.0.0"
-
-isarray@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npm.taobao.org/isarray/download/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
 
 isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
@@ -6185,7 +6170,7 @@ rgba-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/rgba-regex/download/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
 
-rimraf@2, rimraf@^2.4.4, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.3, rimraf@^2.7.1:
+rimraf@2, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.3, rimraf@^2.7.1:
   version "2.7.1"
   resolved "https://registry.npm.taobao.org/rimraf/download/rimraf-2.7.1.tgz?cache=0&sync_timestamp=1581229865753&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frimraf%2Fdownload%2Frimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
   dependencies:
@@ -6294,7 +6279,7 @@ selfsigned@^1.10.7:
   dependencies:
     node-forge "0.9.0"
 
-"semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
+"semver@2 || 3 || 4 || 5", semver@^5.4.1, semver@^5.5.0, semver@^5.5.1, semver@^5.6.0:
   version "5.7.1"
   resolved "https://registry.npm.taobao.org/semver/download/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
 
@@ -7045,47 +7030,9 @@ ts-pnp@^1.1.6:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/ts-pnp/download/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
 
-tslib@1.9.0:
-  version "1.9.0"
-  resolved "https://registry.nlark.com/tslib/download/tslib-1.9.0.tgz?cache=0&sync_timestamp=1618846758811&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftslib%2Fdownload%2Ftslib-1.9.0.tgz#e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8"
-
-tslib@^1.8.1:
-  version "1.14.1"
-  resolved "https://registry.nlark.com/tslib/download/tslib-1.14.1.tgz?cache=0&sync_timestamp=1618846758811&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftslib%2Fdownload%2Ftslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
-
 tslib@^1.9.0:
   version "1.13.0"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.13.0.tgz?cache=0&sync_timestamp=1589411820927&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
-
-tslint-config-standard@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.nlark.com/tslint-config-standard/download/tslint-config-standard-9.0.0.tgz#349a94819d93d5f8d803e3c71cb58ef38eff88e0"
-  dependencies:
-    tslint-eslint-rules "^5.3.1"
-
-tslint-eslint-rules@^5.3.1:
-  version "5.4.0"
-  resolved "https://registry.npm.taobao.org/tslint-eslint-rules/download/tslint-eslint-rules-5.4.0.tgz#e488cc9181bf193fe5cd7bfca213a7695f1737b5"
-  dependencies:
-    doctrine "0.7.2"
-    tslib "1.9.0"
-    tsutils "^3.0.0"
-
-tslint-loader@^3.5.4:
-  version "3.5.4"
-  resolved "https://registry.nlark.com/tslint-loader/download/tslint-loader-3.5.4.tgz#052af7f0772434451ea1b247bb55407f878a4c40"
-  dependencies:
-    loader-utils "^1.0.2"
-    mkdirp "^0.5.1"
-    object-assign "^4.1.1"
-    rimraf "^2.4.4"
-    semver "^5.3.0"
-
-tsutils@^3.0.0:
-  version "3.21.0"
-  resolved "https://registry.npm.taobao.org/tsutils/download/tsutils-3.21.0.tgz?cache=0&sync_timestamp=1615138184534&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftsutils%2Fdownload%2Ftsutils-3.21.0.tgz#b48717d394cea6c1e096983eed58e9d61715b623"
-  dependencies:
-    tslib "^1.8.1"
 
 tty-browserify@0.0.0:
   version "0.0.0"
@@ -7327,10 +7274,6 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz?cache=0&sync_timestamp=1572870717730&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvm-browserify%2Fdownload%2Fvm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
 
-vue-class-component@^7.2.6:
-  version "7.2.6"
-  resolved "https://registry.npm.taobao.org/vue-class-component/download/vue-class-component-7.2.6.tgz#8471e037b8e4762f5a464686e19e5afc708502e4"
-
 vue-eslint-parser@^7.0.0:
   version "7.1.0"
   resolved "https://registry.npm.taobao.org/vue-eslint-parser/download/vue-eslint-parser-7.1.0.tgz?cache=0&sync_timestamp=1589566521118&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-eslint-parser%2Fdownload%2Fvue-eslint-parser-7.1.0.tgz#9cdbcc823e656b087507a1911732b867ac101e83"
@@ -7355,10 +7298,6 @@ vue-loader@^15.9.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
-
-vue-property-decorator@^9.1.2:
-  version "9.1.2"
-  resolved "https://registry.npm.taobao.org/vue-property-decorator/download/vue-property-decorator-9.1.2.tgz?cache=0&sync_timestamp=1615327572569&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-property-decorator%2Fdownload%2Fvue-property-decorator-9.1.2.tgz#266a2eac61ba6527e2e68a6933cfb98fddab5457"
 
 vue-router@^3.3.2:
   version "3.3.2"

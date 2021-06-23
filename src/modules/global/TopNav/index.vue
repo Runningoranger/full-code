@@ -1,7 +1,7 @@
 <template>
   <div class="home-top-nav">
     <div class="left">
-      <span>123444555</span>
+      <span></span>
     </div>
     <div class="right">
       <ul class="list">

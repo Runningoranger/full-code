@@ -25,7 +25,7 @@
 </template>
 
 <script>
-const imageUrl = require('@/assets/dxt.jpg');
+const imageUrl = require('@/assets/images/dxt.jpg');
 export default {
   data() {
     return {

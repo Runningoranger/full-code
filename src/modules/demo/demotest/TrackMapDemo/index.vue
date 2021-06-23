@@ -21,17 +21,17 @@ import TrackMap from "@/components/TrackMap";
 const drawState = {
   none: 0, // 无操作
   circle: 1, // 手动标注
-  drawRects: 2 // 显示轨迹
+  drawRects: 2, // 显示轨迹
 };
 export default {
   components: {
-    TrackMap
+    TrackMap,
   },
   data() {
     return {
       marks: [],
       drawState: 0,
-      imageSrc: "static/images/we.jpg"
+      imageSrc: "static/images/we.jpg",
     };
   },
   methods: {
@@ -39,19 +39,19 @@ export default {
       this.drawState = drawState[type];
       switch (this.drawState) {
         case 2:
-        if (!this.marks.length) {
-          this.$message.warning("请先标点");
-        }
-        break;
+          if (!this.marks.length) {
+            this.$message.warning("请先标点");
+          }
+          break;
         case 0:
-        this.marks = []
-        break;
+          this.marks = [];
+          break;
       }
     },
     handleMark(marks) {
       this.marks = marks;
-    }
-  }
+    },
+  },
 };
 </script>
 

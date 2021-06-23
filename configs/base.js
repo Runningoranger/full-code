@@ -1,13 +1,12 @@
-// const { resolve } = require('path');
 
-
-
-
-
-// module.exports = {
-//   resolve: {
-//     alias: {
-//       "#": resolve("src/components")
-//     }
-//   }
-// }
+module.exports = {
+  publicPath: "/",
+  configureWebpack: {
+    resolve: {
+      alias: {
+        'assets': '@/assets',
+        '#': '@/components'
+      }
+    }
+  }
+}
