@@ -1,6 +1,4 @@
-const merge = require("webpack-merge");
-const base = require("./base");
-const devServer = require("./devServer");
+// const base = require('./base');
+// const merge = require('webpack-merge');
 
-
-module.exports = merge(base, devServer);
+// module.exports = merge(base);

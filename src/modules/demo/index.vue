@@ -1,4 +1,4 @@
-<template>
+s<template>
   <div class="demo-wrapper">
     <div class="sidebar">
       <ul>
@@ -54,7 +54,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/style/mixin.scss";
 .demo-wrapper {
   display: flex;
   height: 100%;
@@ -69,7 +68,9 @@ export default {
       width: 100%;
       text-align: left;
       line-height: 48px;
-      @include overlimit; 
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
       border-bottom: 1px solid #eee;
       cursor: pointer;
       border-radius: 10px;

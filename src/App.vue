@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import GlobalView from "@/modules/global";
+import GlobalView from "@/common/global";
 export default {
   name: 'App',
   components: {

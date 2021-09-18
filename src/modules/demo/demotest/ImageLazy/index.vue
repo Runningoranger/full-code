@@ -12,7 +12,7 @@
 <script>
 const imgs = [];
 for(let i = 1; i <= 6; i++) {
-  const img = require(`@/assets/images/${i}.jpg`);
+  const img = require(`@/assets/${i}.jpg`);
   imgs.push({ src: img });
 }
 

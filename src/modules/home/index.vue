@@ -1,24 +1,23 @@
 <template>
-  <div class="home-index"></div>
+  <div>
+    <h1>home</h1>
+    <el-button @click="handleCreate">新建</el-button>
+  </div>
 </template>
 
 <script>
 export default {
-  components: {
-
-  },
   data() {
     return {
 
     }
   },
   methods: {
-    
+    handleCreate() {
+      
+    }
   }
 };
 </script>
 
-<style lang="scss" scoped>
-
-
-</style>
+<style lang="scss" scoped></style>

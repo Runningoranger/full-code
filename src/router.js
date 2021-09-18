@@ -5,7 +5,7 @@ const router = new VueRouter({
   routes: [
     {
       path: "/",
-      redirect: "/demo"
+      redirect: "/home"
     },
     { 
       name: "home",
@@ -16,6 +16,22 @@ const router = new VueRouter({
       name: "demo",
       path: "/demo",
       component: () => import("./modules/demo")
+    },
+    {
+      name: "e-chart",
+      path: "/e-chart",
+      component: () => import("./modules/e-chart"),
+      meta: {
+        crumbs: [
+          {
+            name: "e-chart",
+            route: {
+              name: "e-chart",
+              path: "/e-chart"
+            }
+          }
+        ]
+      }
     }
   ]
 });
