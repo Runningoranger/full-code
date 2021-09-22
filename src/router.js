@@ -32,6 +32,12 @@ const router = new VueRouter({
           }
         ]
       }
+    },
+    {
+      name: "form",
+      path: "/form",
+      component: () => import("./modules/form"),
+      meta: {}
     }
   ]
 });

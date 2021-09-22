@@ -50,6 +50,13 @@ export default {
           name: "e-chart",
           path: "/e-chart",
           submenus: [],
+        },
+        {
+          id: "3",
+          icon: "el-icon-document",
+          name: "form",
+          path: "/form",
+          submenus: [],
         }
       ],
     };
