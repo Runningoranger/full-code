@@ -4,10 +4,15 @@
       <span>Free Style</span>
     </div>
     <div class="right">
-      <ul class="list">
-        <router-link v-for="(item, i) in navList" :key="i" :to="item.path">
-          <li>{{ item.name }}</li>
-        </router-link>
+      <ul class="top-nav-list">
+        <li 
+          v-for="(item, i) in navList" 
+          :key="i" 
+          @click="$router.push(item.route)"
+          class="top-nav-item"
+        >
+          {{ item.name }}
+        </li>
       </ul>
     </div>
   </div>
@@ -17,7 +22,7 @@
 export default {
   data() {
     return {
-      navList: [{ name: "demo", path: "/demo" }],
+      navList: [{ name: "demo", route: { path: "/demo" } }],
     };
   },
 };
@@ -33,12 +38,13 @@ export default {
   padding: 0 24px;
   .right {
     height: 100%;
-    .list {
+    .top-nav-list {
       display: flex;
       align-items: center;
       height: 100%;
-      li {
+      .top-nav-item {
         padding: 0 16px;
+        cursor: pointer;
       }
     }
   }

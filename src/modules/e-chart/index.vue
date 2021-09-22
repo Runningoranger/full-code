@@ -2,7 +2,7 @@
   <ModuleLayout>
     <div class="e-chart">
       <ul class="e-chart-content">
-        <li :id="chart.id" v-for="chart in chartList" :key="chart.id" class="chart-item"></li>
+        <li :id="key" v-for="(chart, key) in chartList" :key="key" class="chart-item"></li>
       </ul>
     </div>
   </ModuleLayout>
@@ -17,9 +17,8 @@ export default {
   },
   data() {
     return {
-      chartList: [
-        {
-          id: "chart-bar",
+      chartList: {
+        normalBar: {
           option: {
             title: {
               text: ''
@@ -29,15 +28,16 @@ export default {
               data: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
             },
             yAxis: {},
-            series: [{
-              name: '销量',
-              type: 'bar',
-              data: [5, 20, 36, 10, 10, 20]
-            }]
+            series: [
+              {
+                name: '销量',
+                type: 'bar',
+                data: [5, 20, 36, 10, 10, 20]
+              }
+            ]
           },
         },
-        {
-          id: "chart-pie",
+        normalPie: {
           option: {
             series : [
               {
@@ -55,7 +55,7 @@ export default {
             ]
           }
         }
-      ]
+      }
     }
   },
   mounted() {
@@ -65,11 +65,13 @@ export default {
   },
   methods: { 
     init() {
-      this.chartList.forEach(item => {
-        const chartDom = document.getElementById(item.id);
+      const charts = this.chartList;
+      for (let key in charts) {
+        const item = charts[key];
+        const chartDom = document.getElementById(key);
         const myChart = echarts.init(chartDom);
         myChart.setOption({ ...item.option });
-      });
+      }
     }
   }
 }

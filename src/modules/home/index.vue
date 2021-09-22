@@ -1,23 +1,28 @@
 <template>
-  <div>
-    <h1>home</h1>
-    <el-button @click="handleCreate">新建</el-button>
-  </div>
+  <ModuleLayout>
+    <div class="home">
+      
+    </div>
+  </ModuleLayout>
 </template>
 
 <script>
+import ModuleLayout from "@/components/ModuleLayout";
 export default {
+  components: {
+    ModuleLayout
+  },
   data() {
     return {
 
     }
   },
   methods: {
-    handleCreate() {
-      
-    }
+
   }
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

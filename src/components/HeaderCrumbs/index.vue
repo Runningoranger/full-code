@@ -60,7 +60,7 @@ export default {
   display: flex;
   align-items: center;
   padding: 0 24px;
-  background-color: #C4E2D8;
+  background-color: #F9EFE4;
   color: black;
   border-radius: 4px 4px 0 0;
   .crumbs-content {
