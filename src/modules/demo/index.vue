@@ -57,12 +57,16 @@ export default {
 .demo-wrapper {
   display: flex;
   height: 100%;
+  color: #333333;
   .sidebar {
     width: 160px;
-    border: 1px solid #eee;
+    border: 1px solid #999999;
     border-radius: 10px 0 0 10px;
     overflow-x: hidden;
     overflow-y: auto;
+    ul {
+      padding: 10px;
+    }
     li {
       height: 48px;
       width: 100%;
@@ -71,10 +75,11 @@ export default {
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
-      border-bottom: 1px solid #eee;
+      border: 1px solid #999999;
+      border-radius: 5px;
       cursor: pointer;
-      border-radius: 10px;
       padding: 0 10px;
+      margin-bottom: 5px;
       box-sizing: border-box;
     }
     .active {
@@ -83,7 +88,7 @@ export default {
   }
   .content {
     flex: 1;
-    border: 1px solid #eee;
+    border: 1px solid #999999;
     border-left: none;
     border-radius: 0 10px 10px 0;
     padding: 24px;
