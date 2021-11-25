@@ -1,0 +1,310 @@
+{
+  "data": {
+    "list": [
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "b8d46ea3afe0bd64ba182f33326eb930",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 169, "y": 112 },
+              { "x": 644, "y": 416 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "c87174653c7696bffcdb898575919d8e",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 608, "y": 97 },
+              { "x": 817, "y": 261 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "c076dcde4dff28b20cf09d229f80c174",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 610, "y": 108 },
+              { "x": 791, "y": 254 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "7178b0a4427bad381e90ee6582d341c9",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 617, "y": 86 },
+              { "x": 803, "y": 262 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "2922bc32565ba440456c57591fb0bba0",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 146, "y": 59 },
+              { "x": 592, "y": 423 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "247db256dabae9cd3ffae93c00f08911",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 615, "y": 80 },
+              { "x": 819, "y": 263 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "f756fc18e768de3c87c7b65c71532728",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 709, "y": 392 },
+              { "x": 1370, "y": 778 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "1c17496877260c0e37aefc25f97f014e",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 321, "y": 674 },
+              { "x": 670, "y": 1071 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "c036783f724eba00ec7b0f5d5f0f24f0",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 125, "y": 129 },
+              { "x": 569, "y": 411 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "68caca075a993b99943c981a2bb7c012",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 618, "y": 96 },
+              { "x": 803, "y": 259 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "c6d0880351a7a12eafe5b58abb700de1",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 0, "y": 44 },
+              { "x": 181, "y": 227 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "0ef1a724971463fbffacc0839275dac9",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 319, "y": 676 },
+              { "x": 610, "y": 1073 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "49e1e4404c8b1779bd8df2bc8c70cb56",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 611, "y": 96 },
+              { "x": 801, "y": 258 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "0fe139ab4607bd36dbaa4d6ba4692ae8",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 0, "y": 48 },
+              { "x": 165, "y": 225 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "f6381660d0fe09ac0f12057e70273497",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 344, "y": 668 },
+              { "x": 638, "y": 1069 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "af8f8ef336a5a93190bb440c02b5fd54",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 157, "y": 40 },
+              { "x": 628, "y": 418 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "b5d161e18c4bf2c117278993fed829a8",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 1, "y": 45 },
+              { "x": 181, "y": 226 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "665f8c39169493d10bc05d0e03ed0b3d",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 343, "y": 153 },
+              { "x": 763, "y": 499 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "5752a67a2e405653981389bd0ca3de65",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 333, "y": 674 },
+              { "x": 624, "y": 1076 }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "frame",
+        "imageUrl": "",
+        "serial": "cc4ac0bc01e2deba7daecd3464e1088b",
+        "targetRois": [
+          {
+            "label": "",
+            "type": "RECTANGLE",
+            "vertices": [
+              { "x": 173, "y": 62 },
+              { "x": 645, "y": 419 }
+            ]
+          }
+        ]
+      }
+    ],
+    "total": 20
+  },
+  "errorCode": "0",
+  "errorMsg": "ok",
+  "success": true
+}

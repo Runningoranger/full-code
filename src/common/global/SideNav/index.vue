@@ -74,7 +74,7 @@ export default {
   transition: all 0.2s ease;
   display: flex;
   flex-direction: column;
-  background-color: #14446A;
+  background-color: #14447A;
   &.isCollapse {
     width: 65px;
   }
@@ -92,7 +92,7 @@ export default {
     width: 100%;
     /deep/.el-menu {
       border-right: none;
-      background-color: #14446A;
+      background-color: #14447A;
       .el-menu-item {
         span {
           color: #cbcbcb;
