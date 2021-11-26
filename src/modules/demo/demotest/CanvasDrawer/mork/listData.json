@@ -2,16 +2,35 @@
   "data": {
     "list": [
       {
-        "drawerType": "frame",
+        "drawerType": "point",
         "imageUrl": "",
         "serial": "b8d46ea3afe0bd64ba182f33326eb930",
         "targetRois": [
           {
-            "label": "",
-            "type": "RECTANGLE",
+            "type": "POINT",
             "vertices": [
-              { "x": 169, "y": 112 },
-              { "x": 644, "y": 416 }
+              {
+                "x": 410,
+                "y": 318
+              }
+            ]
+          },
+          {
+            "type": "POINT",
+            "vertices": [
+              {
+                "x": 466,
+                "y": 421
+              }
+            ]
+          },
+          {
+            "type": "POINT",
+            "vertices": [
+              {
+                "x": 300,
+                "y": 387
+              }
             ]
           }
         ]
@@ -42,6 +61,17 @@
             "vertices": [
               { "x": 610, "y": 108 },
               { "x": 791, "y": 254 }
+            ]
+          },
+          {
+            "label": "roi",
+            "type": "POLYGON",
+            "vertices": [
+              { "x": 0.05790960451977401, "y": 0.060263653483992465 },
+              { "x": 0.980225988700565, "y": 0.14689265536723164 },
+              { "x": 0.711864406779661, "y": 0.4858757062146893 },
+              { "x": 0.19915254237288135, "y": 0.7344632768361582 },
+              { "x": 0.05790960451977401, "y": 0.060263653483992465 }
             ]
           }
         ]
@@ -118,35 +148,425 @@
               { "x": 321, "y": 674 },
               { "x": 670, "y": 1071 }
             ]
-          }
-        ]
-      },
-      {
-        "drawerType": "frame",
-        "imageUrl": "",
-        "serial": "c036783f724eba00ec7b0f5d5f0f24f0",
-        "targetRois": [
+          },
           {
-            "label": "",
-            "type": "RECTANGLE",
+            "label": "roi",
+            "type": "POLYGON",
             "vertices": [
-              { "x": 125, "y": 129 },
-              { "x": 569, "y": 411 }
+              { "x": 0.05790960451977401, "y": 0.060263653483992465 },
+              { "x": 0.980225988700565, "y": 0.14689265536723164 },
+              { "x": 0.711864406779661, "y": 0.4858757062146893 },
+              { "x": 0.19915254237288135, "y": 0.7344632768361582 },
+              { "x": 0.05790960451977401, "y": 0.060263653483992465 }
             ]
           }
         ]
       },
       {
-        "drawerType": "frame",
+        "drawerType": "point",
+        "imageUrl": "",
+        "serial": "c036783f724eba00ec7b0f5d5f0f24f0",
+        "targetRois": [
+          {
+            "type": "POINT",
+            "vertices": [
+              {
+                "x": 448,
+                "y": 120
+              }
+            ]
+          },
+          {
+            "type": "POINT",
+            "vertices": [
+              {
+                "x": 477,
+                "y": 193
+              }
+            ]
+          },
+          {
+            "type": "POINT",
+            "vertices": [
+              {
+                "x": 589,
+                "y": 204
+              }
+            ]
+          },
+          {
+            "type": "POINT",
+            "vertices": [
+              {
+                "x": 640,
+                "y": 157
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "drawerType": "line",
         "imageUrl": "",
         "serial": "68caca075a993b99943c981a2bb7c012",
         "targetRois": [
           {
-            "label": "",
-            "type": "RECTANGLE",
+            "type": "POINT_PAIR",
             "vertices": [
-              { "x": 618, "y": 96 },
-              { "x": 803, "y": 259 }
+              {
+                "x": 455,
+                "y": 132
+              },
+              {
+                "x": 471,
+                "y": 156
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 455,
+                "y": 132
+              },
+              {
+                "x": 458,
+                "y": 182
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 455,
+                "y": 132
+              },
+              {
+                "x": 603,
+                "y": 188
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 455,
+                "y": 132
+              },
+              {
+                "x": 348,
+                "y": 224
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 455,
+                "y": 132
+              },
+              {
+                "x": 483,
+                "y": 243
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 455,
+                "y": 132
+              },
+              {
+                "x": 368,
+                "y": 284
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 471,
+                "y": 156
+              },
+              {
+                "x": 458,
+                "y": 182
+              }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              {
+                "x": 441,
+                "y": 126
+              },
+              {
+                "x": 501,
+                "y": 186
+              },
+              {
+                "x": 428,
+                "y": 152
+              },
+              {
+                "x": 488,
+                "y": 212
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 471,
+                "y": 156
+              },
+              {
+                "x": 603,
+                "y": 188
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 471,
+                "y": 156
+              },
+              {
+                "x": 348,
+                "y": 224
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 471,
+                "y": 156
+              },
+              {
+                "x": 483,
+                "y": 243
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 471,
+                "y": 156
+              },
+              {
+                "x": 368,
+                "y": 284
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 471,
+                "y": 156
+              },
+              {
+                "x": 424,
+                "y": 372
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 458,
+                "y": 182
+              },
+              {
+                "x": 603,
+                "y": 188
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 458,
+                "y": 182
+              },
+              {
+                "x": 348,
+                "y": 224
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 458,
+                "y": 182
+              },
+              {
+                "x": 483,
+                "y": 243
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 458,
+                "y": 182
+              },
+              {
+                "x": 368,
+                "y": 284
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 458,
+                "y": 182
+              },
+              {
+                "x": 424,
+                "y": 372
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 603,
+                "y": 188
+              },
+              {
+                "x": 483,
+                "y": 243
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 348,
+                "y": 224
+              },
+              {
+                "x": 483,
+                "y": 243
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 348,
+                "y": 224
+              },
+              {
+                "x": 368,
+                "y": 284
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 348,
+                "y": 224
+              },
+              {
+                "x": 424,
+                "y": 372
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 483,
+                "y": 243
+              },
+              {
+                "x": 368,
+                "y": 284
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 483,
+                "y": 243
+              },
+              {
+                "x": 424,
+                "y": 372
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 483,
+                "y": 243
+              },
+              {
+                "x": 546,
+                "y": 415
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 368,
+                "y": 284
+              },
+              {
+                "x": 424,
+                "y": 372
+              }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              {
+                "x": 424,
+                "y": 372
+              },
+              {
+                "x": 546,
+                "y": 415
+              }
             ]
           }
         ]
@@ -182,16 +602,232 @@
         ]
       },
       {
-        "drawerType": "frame",
+        "drawerType": "line",
         "imageUrl": "",
         "serial": "49e1e4404c8b1779bd8df2bc8c70cb56",
         "targetRois": [
           {
-            "label": "",
-            "type": "RECTANGLE",
+            "type": "POINT_PAIR",
             "vertices": [
-              { "x": 611, "y": 96 },
-              { "x": 801, "y": 258 }
+              { "x": 381, "y": 61 },
+              { "x": 494, "y": 61 }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              { "x": 351, "y": 31 },
+              { "x": 411, "y": 91 },
+              { "x": 464, "y": 32 },
+              { "x": 524, "y": 91 }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              { "x": 381, "y": 61 },
+              { "x": 373, "y": 76 }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              { "x": 351, "y": 31 },
+              { "x": 411, "y": 91 },
+              { "x": 343, "y": 46 },
+              { "x": 403, "y": 106 }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              { "x": 381, "y": 61 },
+              { "x": 367, "y": 236 }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              { "x": 351, "y": 31 },
+              { "x": 411, "y": 91 },
+              { "x": 337, "y": 206 },
+              { "x": 397, "y": 266 }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              { "x": 381, "y": 61 },
+              { "x": 490, "y": 142 }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              { "x": 351, "y": 31 },
+              { "x": 411, "y": 91 },
+              { "x": 460, "y": 112 },
+              { "x": 520, "y": 172 }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              { "x": 494, "y": 61 },
+              { "x": 373, "y": 76 }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              { "x": 464, "y": 32 },
+              { "x": 524, "y": 91 },
+              { "x": 343, "y": 46 },
+              { "x": 403, "y": 106 }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              { "x": 494, "y": 61 },
+              { "x": 367, "y": 236 }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              { "x": 464, "y": 32 },
+              { "x": 524, "y": 91 },
+              { "x": 337, "y": 206 },
+              { "x": 397, "y": 266 }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              { "x": 494, "y": 61 },
+              { "x": 511, "y": 304 }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              { "x": 464, "y": 32 },
+              { "x": 524, "y": 91 },
+              { "x": 483, "y": 275 },
+              { "x": 540, "y": 333 }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              { "x": 494, "y": 61 },
+              { "x": 490, "y": 142 }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              { "x": 464, "y": 32 },
+              { "x": 524, "y": 91 },
+              { "x": 460, "y": 112 },
+              { "x": 520, "y": 172 }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              { "x": 373, "y": 76 },
+              { "x": 367, "y": 236 }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              { "x": 343, "y": 46 },
+              { "x": 403, "y": 106 },
+              { "x": 337, "y": 206 },
+              { "x": 397, "y": 266 }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              { "x": 373, "y": 76 },
+              { "x": 490, "y": 142 }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              { "x": 343, "y": 46 },
+              { "x": 403, "y": 106 },
+              { "x": 460, "y": 112 },
+              { "x": 520, "y": 172 }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              { "x": 367, "y": 236 },
+              { "x": 511, "y": 304 }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              { "x": 337, "y": 206 },
+              { "x": 397, "y": 266 },
+              { "x": 483, "y": 275 },
+              { "x": 540, "y": 333 }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              { "x": 367, "y": 236 },
+              { "x": 490, "y": 142 }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              { "x": 337, "y": 206 },
+              { "x": 397, "y": 266 },
+              { "x": 460, "y": 112 },
+              { "x": 520, "y": 172 }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              { "x": 511, "y": 304 },
+              { "x": 490, "y": 142 }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              { "x": 483, "y": 275 },
+              { "x": 540, "y": 333 },
+              { "x": 460, "y": 112 },
+              { "x": 520, "y": 172 }
+            ]
+          },
+          {
+            "type": "POINT_PAIR",
+            "vertices": [
+              { "x": 262, "y": 507 },
+              { "x": 373, "y": 523 }
+            ]
+          },
+          {
+            "type": "RECTANGLE_PAIR",
+            "vertices": [
+              { "x": 242, "y": 487 },
+              { "x": 282, "y": 527 },
+              { "x": 354, "y": 504 },
+              { "x": 392, "y": 542 }
             ]
           }
         ]
@@ -257,16 +893,35 @@
         ]
       },
       {
-        "drawerType": "frame",
+        "drawerType": "point",
         "imageUrl": "",
         "serial": "665f8c39169493d10bc05d0e03ed0b3d",
         "targetRois": [
           {
-            "label": "",
-            "type": "RECTANGLE",
+            "type": "POINT",
             "vertices": [
-              { "x": 343, "y": 153 },
-              { "x": 763, "y": 499 }
+              {
+                "x": 454,
+                "y": 141
+              }
+            ]
+          },
+          {
+            "type": "POINT",
+            "vertices": [
+              {
+                "x": 483,
+                "y": 213
+              }
+            ]
+          },
+          {
+            "type": "POINT",
+            "vertices": [
+              {
+                "x": 590,
+                "y": 200
+              }
             ]
           }
         ]

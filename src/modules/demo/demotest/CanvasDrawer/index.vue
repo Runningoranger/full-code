@@ -57,7 +57,8 @@ export default {
       width: 300px;
       height: 200px;
       margin-bottom: 10px;
-      margin-right: 10px;
+      margin-right: 50px;
+      overflow: hidden;
     }
   }
 }

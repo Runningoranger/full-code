@@ -4,14 +4,23 @@ import { uniqWith, isEqual } from "lodash";
 export const formatFrameData = (frameData) => {
   // 处理frame数据
   let frameList = [];
+  const frameStyles = {
+    roi: {
+      strokeStyle: '#3e96d7',
+      fillStyle: 'rgba(62, 150, 215, .4)',
+      coordSys: "percentage"
+    }
+  }
   if (frameData && Array.isArray(frameData)) {
     frameList = frameData.map((l) => {
+      const setStyle = (l.label && frameStyles[l.label]) || {};
       return {
         strokeStyle: '#E04949',
         fillStyle: 'rgba(224, 73, 73, 0.3)',
         vertices: l.vertices,
         coordSys: 'absolute',
-        lineWidth: 2
+        lineWidth: 2,
+        ...setStyle
       };
     });
   } else {

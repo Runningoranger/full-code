@@ -142,8 +142,8 @@ export default {
       }
     },
     handleDrawType(type, drawData, ctx, size) {
-      const point = drawData?.point?.map(item => { return { ...item, pointRadius: 1.5 } });
-      const line = drawData?.line?.map(item => { return { ...item, lineWidth: 1.5, pointRadius: 1.5 } });
+      const point = drawData?.point?.map(item => { return { ...item, pointRadius: 3 } });
+      const line = drawData?.line?.map(item => { return { ...item, lineWidth: 1.5, pointRadius: 3 } });
       switch(type) {
         case 'frame': this.canvasDraw('frame', 'drawPolygons', drawData.frame, ctx, size); return;
         case 'point': this.canvasDraw('point', 'drawPoints', point, ctx, size); return;
