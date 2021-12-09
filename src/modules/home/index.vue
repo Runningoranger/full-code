@@ -1,17 +1,12 @@
 <template>
-  <ModuleLayout>
-    <div class="home">
-      
-    </div>
-  </ModuleLayout>
+  <div class="home">
+    home
+  </div>
 </template>
 
 <script>
-import ModuleLayout from "@/components/ModuleLayout";
+
 export default {
-  components: {
-    ModuleLayout
-  },
   data() {
     return {
 
